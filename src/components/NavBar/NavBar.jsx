@@ -13,7 +13,7 @@ const NavBar = () => {
     const closeMenu=()=>{
         menuRef.current.style.right="-350px"
     }
-    const resumeUrl = '/cv_layel (1).pdf';  // Le chemin vers ton fichier PDF dans le dossier public
+    const resumeUrl = 'https://github.com/layelhajji/Portfolio/assets/pdf/cv_layel (1).pdf';  // Le chemin vers ton fichier PDF dans le dossier public
 
 
     const handleDownload = () => {
