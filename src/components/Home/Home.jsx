@@ -3,7 +3,7 @@ import layel2 from '../../assets/layel2.jpg'
 import './Home.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 const Home = () => {
-    const resumeUrl = 'https://github.com/layelhajji/Portfolio/blob/master/public/cv_layel%20(1).pdf';  // Le chemin vers ton fichier PDF dans le dossier public
+    const resumeUrl = 'https://github.com/layelhajji/Portfolio/assets/pdf/cv_layel%20(1).pdf';  // Le chemin vers ton fichier PDF dans le dossier public
 
 
     const handleDownload = () => {
