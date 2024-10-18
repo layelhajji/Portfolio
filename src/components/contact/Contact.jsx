@@ -79,7 +79,7 @@ const Contact = () => {
                 <label htmlFor="">Your Email</label>
                 <input type="email"  placeholder='Enter your email' name='email'/>
                 <label htmlFor="">Write your message here</label>
-                <textarea  rows="8"  name='message' placeholder='Enter your message'/>
+                <textarea  rows="5"  name='message' placeholder='Enter your message'/>
                 <button type="submit" className="contact-submit">Submit now</button>
 
 

@@ -9,6 +9,7 @@ import CommunityLife from './components/community_life/CommunityLife'
 const App = () => {
   return (
     <div>
+      
       <NavBar></NavBar>
       <Home></Home>
       <About></About>

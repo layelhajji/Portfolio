@@ -50,7 +50,12 @@
 .skill img{
     width: 40px;
 }
-
+.skill:hover{
+    transform: scale(1.20);
+    
+    transition: 0.5s;
+    
+}
 .skills{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;

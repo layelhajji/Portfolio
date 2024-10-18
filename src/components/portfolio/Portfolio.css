@@ -30,23 +30,23 @@
 }
 .ligne1{
     display: flex;
-    gap:45px;
+    gap:40px;
 
 }
 .ligne2{
     display: flex;
-    gap:45px;
+    gap:40px;
 }
 .project-container{
-    padding: 10px;
-    width: 390px;
-    height: 340px;
+    padding: 15px;
+    width: 370px;
+    height: 320px;
     background: #32323c;
     border-radius: 20px;
 }
 
 .project-container:hover{
-    transform: scale(1.10);
+    transform: scale(1.05);
     border: 4px solid #ff00ff;
     border-radius: 10px;
     transition: 0.3s;
@@ -56,7 +56,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 15px;
     padding: 30px 32px;
     
 }
