@@ -19,7 +19,7 @@ const NavBar = () => {
     const handleDownload = () => {
         // Redirige vers le lien pour afficher le CV
         window.open(resumeUrl, '_blank');  // Ouvre le CV dans un nouvel onglet
-    
+    };
   return (
     <div className='navbar'>
         <h1>Layel.</h1>
