@@ -13,13 +13,13 @@ const NavBar = () => {
     const closeMenu=()=>{
         menuRef.current.style.right="-350px"
     }
-    const resumeUrl = 'https://layelhajji.github.io/Portfolio/assets/pdf/CV_Layel.pdf';  // Le chemin vers ton fichier PDF dans le dossier public
+    const resumeUrl = 'https://layelhajji.github.io/Portfolio/assets/pdf/CV_Layel_hajji_FR.pdf';  // Le chemin vers ton fichier PDF dans le dossier public
 
 
     const handleDownload = () => {
         // Redirige vers le lien pour afficher le CV
         window.open(resumeUrl, '_blank');  // Ouvre le CV dans un nouvel onglet
-    };
+    
   return (
     <div className='navbar'>
         <h1>Layel.</h1>
