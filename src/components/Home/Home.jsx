@@ -1,4 +1,4 @@
-import React from 'react'
+
 import layel2 from '../../assets/layel2.jpg'
 import './Home.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll'

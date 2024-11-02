@@ -2,13 +2,13 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin:20px 170px;
+    margin:20px 172px;
 
 }
 .navbar h1{
     margin-top: -9px;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 30px;
     font-family: outfit ;
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
     background-clip: text;
@@ -22,11 +22,11 @@
     display: flex;
     align-items: center;
     list-style: none;
-    gap:50px;
-    font-size: 20px;
+    gap:40px;
+    font-size: 23px;
 }
 .nav-connect{
-    padding: 20px 40px;
+    padding: 1.5% 3%;
     border-radius: 50px;
     font-size: 23px;
     background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1 102.06%);

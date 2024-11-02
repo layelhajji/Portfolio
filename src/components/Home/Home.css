@@ -1,8 +1,10 @@
 .home{
    display:flex;
-   align-items: center; 
+   align-items: center;
+   justify-content: center; 
    flex-direction: column;
    gap: 45px;
+   
 }
 .home img{
     margin-top: 90px;
@@ -90,6 +92,7 @@
 
 
 @media(max-width:768px){
+    
     .home img{
         margin-top: 120px;
         width: 260px;
@@ -108,7 +111,7 @@
         margin:10px 0px
     }
     .home-action{
-       gap:16px;
+       gap:15px;
        font-size:18px;
        font-weight: 500;
        margin-bottom: 50px; 
