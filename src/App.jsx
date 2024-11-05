@@ -7,6 +7,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
 import CommunityLife from './components/community_life/CommunityLife';
 
+
 const App = () => {
   
 

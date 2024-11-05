@@ -33,10 +33,14 @@ const NavBar = () => {
             <li><AnchorLink className='anchor-link'offset={50} href="#contact">Contact</AnchorLink></li>
         </ul>
         
-           <button  className="nav-connect" onClick={handleDownload}>
-                My Resume
-            </button>
-            
+           
+        <button className="nav-connect" onClick={handleDownload}>
+           
+           My Resume
+         
+         
+                     </button>
+                    
       
     </div>
   )
