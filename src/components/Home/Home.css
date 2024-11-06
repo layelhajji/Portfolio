@@ -4,15 +4,26 @@
    justify-content: center; 
    flex-direction: column;
    gap: 45px;
+   position: relative;
+   
+   padding: 50px;
+  
    
 }
-.home img{
-    margin-top: 90px;
+.home img {
+    width: 260px; /* Taille de l'image */
+    height: 260px;
     border-radius: 50%;
-    width: 290px;
-    height: 290px;
-    object-fit:cover;
-}
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition douce */
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Ombre douce autour de l'image */
+  }
+  
+  .home img:hover {
+    transform: scale(1.1); /* Zoom de l'image au survol */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* Augmentation de l'ombre */
+  }
+
 /* Animation for sliding in and fading in */
 @keyframes slideInFade {
     0% {
@@ -130,3 +141,10 @@
     
 
 }
+
+
+
+  
+  
+  
+ 
