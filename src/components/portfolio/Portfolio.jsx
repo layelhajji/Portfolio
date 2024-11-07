@@ -61,32 +61,6 @@ const Portfolio = () => {
                        </div>
                    </div>
                    <div className="project-container">
-                       
-                       <div className="project">
-                           <div className="project-title"><h1>ChatConnect</h1></div>
-                           <div className="project-description">
-                               <p>
-                               A real-time chat application that provides secure authentication to enable instant conversations.
-                               </p>
-                               </div>
-                               <br />
-                           <div className="technologies">
-                               <div className="technologie">ReactJS</div>
-                               <div className="technologie">Firebase</div>
-                              
-                               
-
-                           </div>
-                           <div>
-                            <a href="https://github.com/layelhajji/ChatConnect" target="_blank" rel="noopener noreferrer">
-                            <button className="github">Github</button>
-                            </a>
-                            </div>
-                       </div>
-                   </div>
-                    </div>
-                    <div className="ligne2">
-                    <div className="project-container">
                         
                         <div className="project">
                             <div className="project-title"><h1>Cozy </h1></div>
@@ -112,6 +86,9 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
+                    </div>
+                    <div className="ligne2">
+                   
                     <div className="project-container">
                         
                         <div className="project">
