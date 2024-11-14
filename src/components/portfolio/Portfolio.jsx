@@ -134,6 +134,33 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
+                     
+                    <div className="project-container">
+                        
+                        <div className="project">
+                            <div className="project-title"><h1>Intern Management Web Application </h1></div>
+                            <div className="project-description">
+                                <p>
+                                A web application for efficient intern management and tracking.
+                                </p>
+                                </div>
+                                <br />
+                            <div className="technologies">
+                                <div className="technologie">HTML</div>
+                                <div className="technologie">CSS</div>
+                                <div className="technologie">JS</div>
+                                <div className="technologie">PHP</div>
+                                
+
+                            </div>
+                            
+                            <div>
+                            <a href="https://github.com/layelhajji/Gestion_des_stagiaires.git" target="_blank" rel="noopener noreferrer">
+                            <button className="github">Github</button>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
                     </div>
         </div>
        
